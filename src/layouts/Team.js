@@ -1,5 +1,5 @@
 import TeamCard from "components/TeamCard";
-import { Pagination } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
@@ -22,7 +22,11 @@ function Team() {
           <Swiper
             slidesPerView={1}
             spaceBetween={30}
-            modules={[Pagination]}
+            modules={[Pagination, Autoplay]}
+            autoplay={{
+              delay: 4000,
+              disableOnInteraction: false,
+            }}
             pagination={{
               el: ".team-slider",
               clickable: true,

@@ -8,7 +8,7 @@ function FeaturesBanner() {
         gradient={false}
         className="flex items-center h-full"
         speed={50}
-        direction="right"
+        direction="left"
       >
         <div className="mx-4 flex-1">
           <h1 className="font-sora text-dark-black font-semibold text-xl sm:text-2xl md:text-3xl xl:text-5xl">

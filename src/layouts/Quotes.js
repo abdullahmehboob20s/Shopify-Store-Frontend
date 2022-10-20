@@ -8,11 +8,19 @@ function Quotes() {
         gradient={false}
         className="flex items-center h-full"
         speed={50}
-        direction="right"
+        direction="left"
       >
-        <h1 className="font-sora text-dark-black font-semibold text-xl sm:text-2xl md:text-3xl xl:text-5xl">
-          We do one thing, and we do it well, we create exceptional websites
-          that sell.{" "}
+        <h1 className="px-8 font-sora text-dark-black font-semibold text-xl sm:text-2xl md:text-3xl xl:text-5xl">
+          We do one thing,{" "}
+        </h1>
+
+        <h1 className="px-8 font-sora text-dark-black font-semibold text-xl sm:text-2xl md:text-3xl xl:text-5xl">
+          and we do it well,
+        </h1>
+
+        <h1 className="px-8 font-sora text-dark-black font-semibold text-xl sm:text-2xl md:text-3xl xl:text-5xl">
+          {" "}
+          we create exceptional websites that sell.
         </h1>
       </Marquee>
     </div>

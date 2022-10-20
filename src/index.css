@@ -85,7 +85,7 @@
   left: 0;
   width: 100%;
   background-color: #d1f224;
-  transition: all 1s ease;
+  transition: all 4s ease;
   height: 100%;
   transform: scaleX(0);
   transform-origin: 0 0;
@@ -115,7 +115,7 @@
     left: 0;
     width: 100%;
     background-color: #d1f224;
-    transition: all 1s ease;
+    transition: all 4s ease;
     height: 100%;
     transform: scaleY(0);
     transform-origin: 0 0;
