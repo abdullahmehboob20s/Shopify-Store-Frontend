@@ -7,6 +7,7 @@ module.exports = {
       white: "white",
       yellow: "#D1F224",
       transparent: "transparent",
+      "dark-black": "#1A1C1F",
     },
 
     extend: {
@@ -20,6 +21,7 @@ module.exports = {
     fontFamily: {
       JetBrainsMono: "JetBrainsMono",
       "open-sans": "'Open Sans', sans-serif",
+      sora: "'Sora', sans-serif",
     },
   },
   plugins: [],
