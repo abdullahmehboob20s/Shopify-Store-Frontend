@@ -1,12 +1,9 @@
 import TeamCard from "components/TeamCard";
-import React, { useRef, useState } from "react";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
 function Team() {
-  const paginationRef = useRef(null);
-
   return (
     <div className="py-16 sm:py-24 xl:py-32 relative z-10">
       <div className="container">
