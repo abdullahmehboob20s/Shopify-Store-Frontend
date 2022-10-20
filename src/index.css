@@ -32,7 +32,12 @@
 
 @layer base {
   * {
-    @apply font-open-sans;
+    @apply font-open-sans text-white;
+  }
+
+  body,
+  html {
+    @apply bg-dark-black text-white;
   }
 }
 
