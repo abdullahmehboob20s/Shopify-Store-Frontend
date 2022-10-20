@@ -4,7 +4,7 @@ import React from "react";
 function Cards() {
   return (
     <div>
-      <div className="container space-y-24">
+      <div className="container space-y-12 sm:space-y-16 md:space-y-24">
         <SideBySideSection
           img="images/medicins.png"
           desc="We helped Hab Shifa Australia increase subscription revenue by 200%"

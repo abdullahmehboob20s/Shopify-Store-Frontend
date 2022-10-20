@@ -8,16 +8,16 @@ function Hero() {
 
       <div className="container relative z-[100]">
         <h1
-          className="text-5xl text-center font-JetBrainsMono text-white mb-7"
+          className="text-2xl sm:text-2xl md:text-3xl xl:text-5xl text-center font-JetBrainsMono text-white mb-5 lg:mb-7"
           style={{ lineHeight: 1.3 }}
         >
-          Ecom UI/UX. Shopify Development. <br /> Designed to{" "}
-          <span className="text-yellow">convert</span>. Developed to{" "}
+          Ecom UI/UX. Shopify Development. <br className="hidden md:block" />{" "}
+          Designed to <span className="text-yellow">convert</span>. Developed to{" "}
           <span className="text-yellow">scale</span>.
         </h1>
 
         <p
-          className="text-2xl text-center font-JetBrainsMono text-white w-full max-w-[60rem] mx-auto font-light mb-7"
+          className="text-sm sm:text-base md:text-lg xl:text-2xl text-center font-JetBrainsMono text-white w-full max-w-[60rem] mx-auto font-light mb-7"
           style={{ lineHeight: 1.5 }}
         >
           Your Melbourne based Shopify developer is now single, yes we did it,

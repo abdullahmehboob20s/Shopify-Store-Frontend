@@ -5,11 +5,11 @@ function TechStack() {
   return (
     <div className="py-14 bg-yellow">
       <div className="container">
-        <h1 className="text-center font-medium text-5xl font-sora text-dark-black mb-16">
+        <h1 className="text-center font-medium text-xl sm:text-2xl lg:text-3xl xl:text-5xl font-sora text-dark-black mb-4 sm:mb-12 xl:mb-20">
           Did someone say tech stack?
         </h1>
 
-        <div className="grid grid-cols-[repeat(4,7.5rem)] justify-between max-w-[60rem] mx-auto">
+        <div className="grid grid-cols-[repeat(2,6rem)] sm:grid-cols-[repeat(4,6rem)] lg:grid-cols-[repeat(4,7.5rem)] justify-between max-w-[16rem] sm:max-w-[40rem] xl:max-w-[60rem] mx-auto">
           <div className="">
             <BrandImgComponent img="images/stack/1.png" imgScale={1.2} />
             <BrandImgComponent img="images/stack/2.png" />

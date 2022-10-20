@@ -24,10 +24,10 @@ function App() {
       <About />
       <Brands />
       <Team />
-      <div className="mb-16">
+      <div className="mb-12 sm:mb-16">
         <TechStack />
       </div>
-      <div className="mb-40">
+      <div className="mb-12 sm:mb-28 lg:mb-40">
         <Cards />
       </div>
       <div className="mb-28">
