@@ -95,6 +95,16 @@
   transform: scaleX(1);
 }
 
+.team-slider-wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.team-slider-wrapper .swiper-slide {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
 @media (min-width: 640px) {
   .team-bullet {
     display: block;
